@@ -2,4 +2,16 @@
 		
 	Good question, I guess I should start out with the fact that my name is **Eric Thomas Gorski!!**
 
-	Aside from that there isn;t all that much I am comfortable divulging. I am basically what many     would refer to as a "gamer" this ranign from digital to Analogue game (board games, table top, etc...) Goal wise, I want to get into designing said games. I have spent the past year writing up a design document and teaching myself, I howeever hit a wall with programing and figured that taking a class would help me. Hobbies i have on the side include singing, playing piano, and just chilling and listening to some tunes. that is basically the jist of it.
+	Aside from that there isn't all that much I am comfortable divulging. I am basically what many would refer to as a "gamer" this ranging from digital to Analogue game (board games, table top, etc...) Goal wise, I want to get into designing said games. I have spent the past year writing up a design document and teachingmyself, I however hit a wall with programing and figured that taking a class would help me. Hobbies i have onthe side include singing, playing piano, and just chilling and listening to some tunes. that is basically thejist of it.
+
+# Version Control
+
+	To put it bluntly and probably amatuerishly, version control allows you to keep track of various     states of a program thoughout it's development cycle.
+
+		-allows several people to work on the same project and avoid incedental conflicts.
+		-allows you to keep track of "version history" seeing who made changes, what they were
+		 and what purpose these changes serve.
+		- allows you to test changes before fully implementing it as a merge.
+		-Creates the ability to go back to previous versions in necessary.
+
+
