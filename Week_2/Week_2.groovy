@@ -12,10 +12,12 @@ println (constant.LAST_NAME)
 
 // testing of a leet number value.... who does that typing leet not 1337
 int leet = 1337; 
+println (leet)
 // defining b
 BigDecimal b = leet / 42
-println (b)
-
+println (b) 
+// to clarify b from non assigned numbers
+println "seperation of variables from math"
 //new Variable defined by Maths
 double bleet = 31.8333333333
 
@@ -25,3 +27,4 @@ println 8 * bleet / 2
 println bleet / leet
 println ((bleet *leet)/ 2 - 42 + 808) 
 println 1336 + 7331 / leet -1336
+
