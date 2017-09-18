@@ -9,3 +9,8 @@ class constant {
 
 println (constant.FIRST_NAME)
 println (constant.LAST_NAME)
+
+// testing of a leet number value.... who does that typing leet not 1337
+int leet = 1337; 
+assert b = leet / 42
+println (b)
