@@ -1,9 +1,10 @@
-// make one for each student?
+// Created map for each student following structure used in class, assigned each student a grade
 
 Map<String,List<Integer>> jimGrades =[
     'Jim':[76,92,60,85,49,99]
 ]
-
+/** loop designed to average strudents grades had trouble with else if statment when testing. Realized that the average was a value I had left off
+of course there would be an issue when the resulting average had no value in which to be assigned **/
 jimGrades.each { k,v ->
     BigDecimal average = v.sum() / v.size()
     if (average >= 90 && average <= 100) {
@@ -20,6 +21,7 @@ jimGrades.each { k,v ->
         println "$k - $average - $letterGrade"
 }
 
+// there has to be a better way to do this than copy pasting and assigning new values if so I missed it 
 Map<String,List<Integer>> bobGrades =[
     'Bob':[89,92,0,90,100,73]
 ]
