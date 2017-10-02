@@ -98,6 +98,6 @@ destroGrades.each { k,v ->
         letterGrade = 'C'
     } else if (averager >= 60 && average <= 69.99){
         letterGrade = 'D'
-    }       
-        println "$k - $average - $letterGrade"
+    }       // he is the scourge of life
+        println "$k - $average - $letterGrade, Student comment -Destro has no need for good Grades!"
 }
