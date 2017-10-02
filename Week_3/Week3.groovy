@@ -3,8 +3,10 @@
 Map<String,List<Integer>> jimGrades =[
     'Jim':[76,92,60,85,49,99]
 ]
-/** loop designed to average strudents grades had trouble with else if statment when testing. Realized that the average was a value I had left off
-of course there would be an issue when the resulting average had no value in which to be assigned **/
+/** loop designed to average strudents grades, had trouble with else if statment when testing. Realized that the average was a value I had left off
+of course there would be an issue when the resulting average had no value in which to be assigned
+honeslty not sure if there is a loop here, I have a control structure, but what makes it a loop if this is one? will be submitted as is so it's not late
+ **/
 jimGrades.each { k,v ->
     BigDecimal average = v.sum() / v.size()
     if (average >= 90 && average <= 100) {
@@ -18,7 +20,8 @@ jimGrades.each { k,v ->
     } else if (averager >= 60 && average <= 69.99){
         letterGrade = 'D'
     }       
-        println "$k - $average - $letterGrade"
+    // wait I need to print the individual grades well it follows suit the - $v - should do that, i assume v is for value, what is k?
+        println "$k - $v - $average - $letterGrade"
 }
 
 // there has to be a better way to do this than copy pasting and assigning new values if so I missed it 
@@ -39,7 +42,7 @@ bobGrades.each { k,v ->
     } else if (averager >= 60 && average <= 69.99){
         letterGrade = 'D'
     }       
-        println "$k - $average - $letterGrade"
+        println "$k - $v - $average - $letterGrade"
 }
 
 Map<String,List<Integer>> robouteGrades =[
@@ -59,7 +62,7 @@ robouteGrades.each { k,v ->
     } else if (averager >= 60 && average <= 69.99){
         letterGrade = 'D'
     }       
-        println "$k - $average - $letterGrade"
+        println "$k - $v - $average - $letterGrade"
 }
 
 Map<String,List<Integer>> mortyGrades =[
@@ -79,7 +82,7 @@ mortyGrades.each { k,v ->
     } else if (averager >= 60 && average <= 69.99){
         letterGrade = 'D'
     }       
-        println "$k - $average - $letterGrade"
+        println "$k - $v - $average - $letterGrade"
 }
 
 Map<String,List<Integer>> destroGrades =[
@@ -99,5 +102,5 @@ destroGrades.each { k,v ->
     } else if (averager >= 60 && average <= 69.99){
         letterGrade = 'D'
     }       // he is the scourge of life
-        println "$k - $average - $letterGrade, Student comment -Destro has no need for good Grades!"
+        println "$k - $v - $average - $letterGrade - Student comment -Destro has no need for good Grades!"
 }
