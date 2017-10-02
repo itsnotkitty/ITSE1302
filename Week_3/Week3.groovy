@@ -6,7 +6,7 @@ Map<String,List<Integer>> jimGrades =[
 
 /** loop designed to average strudents grades. Had trouble with else if (control structure) statment when testing. Realized that the average was 
 a value I had left off of course there would be an issue when the resulting average had no value in which to be assigned
-honeslty not sure if there is a loop here, I have a control structure, but what makes it a loop if this is one? will be submitted as is so it's not late
+honestly not sure if there is a loop here, I have a control structure, but what makes it a loop if this is one? will be submitted as is so it's not late
 **/
 jimGrades.each { k,v ->
     BigDecimal average = v.sum() / v.size()
