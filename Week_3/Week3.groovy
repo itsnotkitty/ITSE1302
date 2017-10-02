@@ -3,8 +3,8 @@
 Map<String,List<Integer>> jimGrades =[
     'Jim':[76,92,60,85,49,99]
 ]
-/** loop designed to average strudents grades had trouble with else if statment when testing. Realized that the average was a value I had left off
-of course there would be an issue when the resulting average had no value in which to be assigned **/
+/** loop designed to average strudents grades. Had trouble with else if (control structure) statment when testing. Realized that the average was 
+a value I had left off of course there would be an issue when the resulting average had no value in which to be assigned **/
 jimGrades.each { k,v ->
     BigDecimal average = v.sum() / v.size()
     if (average >= 90 && average <= 100) {
