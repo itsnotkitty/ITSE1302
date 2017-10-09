@@ -104,6 +104,3 @@ destroGrades.each { k,v ->
     }       // he is the scourge of life
         println "$k - $v - $average - $letterGrade - Student comment -Destro has no need for good Grades!"
 }
-
-        println "$k - $average - $letterGrade, Student comment -Destro has no need for good Grades!"
-}
